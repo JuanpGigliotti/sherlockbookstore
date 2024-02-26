@@ -11,7 +11,7 @@ const CartContent = () => {
 return (
   <>
   <NavBar/>
-  {cart.lenght > 0 ? (
+  {cart.length > 0 ? (
     <>
     <CartElements />
     <CartTotal/>

@@ -1,5 +1,8 @@
 import { createContext, useState, useEffect } from "react";
-import axios from "axios";
+/* import axios from "axios"; */
+
+import {db} from "../../services/config";
+import { getDocs, collection, query } from "firebase/firestore";
 
 export const DataContext = createContext();
 
@@ -8,9 +11,21 @@ const DataProvider = ({ children }) =>{
     const[data, setData] = useState([]);
     const[cart, setCart] = useState([]);
 
-    useEffect(()=>{
+    useEffect (() => {
+      const misProductos = query (collection (db, "productos"))
+      
+      getDocs(misProductos)
+        .then(res => {
+          setData (res.docs.map(doc => ({id:doc.id, ...doc.data()})))
+        })
+    }, [])
+
+    
+
+
+/*     useEffect(()=>{
         axios("data.json").then((res) => setData(res.data));
-    },[]);
+    },[]); */
 
     const buyProducts = (product) => {
         const productrepeat = cart.find((item) => item.id === product.id);
