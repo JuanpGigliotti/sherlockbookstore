@@ -1,8 +1,30 @@
-# React + Vite
+# SherlockBookStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+proyecto e commerce la aplicacion te permite comprar en el sitio y hacer todo tipo de transacciones con sus productos comprar agregar o borrar.
+usa base de datos cargada previamente en firebase.
 
-Currently, two official plugins are available:
+## tecnologias usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-react
+-vite
+-reactRouter
+-Firebase
+
+### funcionalidades
+
+-lista de productos
+-stock
+-carrito
+-finalizar venta
+
+### instalacion
+
+-clonar repositorio
+-usar una terminal
+-usamos npm 
+-ejecutamos el proyecto 
+
+#### Licencia
+-coderhouse
+-fuente?
+de los deseos

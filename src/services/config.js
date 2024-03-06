@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBFguHCholuiQvbPd2ECzRgoYAmruv3qRk",
+  apiKey: import.meta.env.VITE_API_KEY_FIREBASE_CONFIG,
   authDomain: "sherlockbookstore-d7692.firebaseapp.com",
   projectId: "sherlockbookstore-d7692",
   storageBucket: "sherlockbookstore-d7692.appspot.com",
