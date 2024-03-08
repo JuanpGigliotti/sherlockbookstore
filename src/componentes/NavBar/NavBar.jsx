@@ -12,7 +12,16 @@ const NavBar = () => {
         <nav className= "navbar">
           <Link to={"/"}>
             <h1 className="navbar-logo">shop.</h1>
-          </Link>  
+          </Link> 
+
+          <Link to={"/categoria/2"}>
+            Terror
+          </Link>
+
+          <Link to={"/categoria/3"}>
+            amor
+          </Link>
+
           <Link className="seecarrito" to={"/cart"}>
             🛒
             {cart.length > 0 ? <TotalItems/> : null }

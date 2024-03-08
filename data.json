@@ -6,7 +6,8 @@
         "author":"Cawthon, Scott",
         "price": 20700,
         "img": "https://http2.mlstatic.com/D_NQ_NP_960156-MLU74303121196_022024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     },
     {
 
@@ -15,7 +16,8 @@
         "author":"Sharman Robin",
         "price": 18000,
         "img": "https://http2.mlstatic.com/D_NQ_NP_746862-MLU72972325075_112023-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     },
     {
 
@@ -24,7 +26,8 @@
         "author":"Damián Betular",
         "price": 20500,
         "img": "https://http2.mlstatic.com/D_NQ_NP_913060-MLU74189695370_012024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"3"
     },
     {
 
@@ -33,7 +36,8 @@
         "author":"James Clear",
         "price": 50607,
         "img": "https://http2.mlstatic.com/D_NQ_NP_804453-MLU73121253169_112023-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"3"
     },
     {
 
@@ -42,7 +46,8 @@
         "author":"Keri Smith",
         "price": 40506,
         "img": "https://http2.mlstatic.com/D_NQ_NP_655528-MLU74053078727_012024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     },
     {
 
@@ -51,7 +56,8 @@
         "author":"Sigman, Mariano",
         "price": 20605,
         "img": "https://http2.mlstatic.com/D_NQ_NP_802169-MLA53130241938_012023-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     },
     {
 
@@ -60,7 +66,8 @@
         "author":"Rick Riordan",
         "price": 20405,
         "img": "https://http2.mlstatic.com/D_NQ_NP_634146-MLU74237618867_012024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     },
     {
 
@@ -69,7 +76,8 @@
         "author":"Roberto A. Ulloa",
         "price": 30220,
         "img": "https://http2.mlstatic.com/D_NQ_NP_968896-MLU74219397833_012024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     },
     {
 
@@ -78,7 +86,8 @@
         "author":"Lyna Vallejos",
         "price": 30202,
         "img": "https://http2.mlstatic.com/D_NQ_NP_691938-MLU72590203577_102023-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     },
     {
 
@@ -87,7 +96,8 @@
         "author":"John Katzenbach",
         "price": 20302,
         "img": "https://http2.mlstatic.com/D_NQ_NP_939226-MLU74419021831_022024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     },
     {
 
@@ -96,7 +106,8 @@
         "author":"Inma Rubiales",
         "price": 24000,
         "img": "https://http2.mlstatic.com/D_NQ_NP_987833-MLU73951831923_012024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"3"
     },
     {
 
@@ -105,7 +116,8 @@
         "author":"Emil Ludwing",
         "price": 30504,
         "img": "https://http2.mlstatic.com/D_NQ_NP_676327-MLU74208609245_012024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"3"
     },
     {
 
@@ -114,7 +126,8 @@
         "author":"Lauren Roberts",
         "price": 30201,
         "img": "https://http2.mlstatic.com/D_NQ_NP_702743-MLU74174703663_012024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     },
     {
 
@@ -123,7 +136,8 @@
         "author":"JENNIFER ARMENTROUT",
         "price": 30201,
         "img": "https://http2.mlstatic.com/D_NQ_NP_612450-MLU74239518673_012024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"3"
     },
     {
 
@@ -132,7 +146,8 @@
         "author":"Benavent",
         "price": 30201,
         "img": "https://http2.mlstatic.com/D_NQ_NP_660157-MLA47082212012_082021-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"3"
     },
     {
 
@@ -141,7 +156,8 @@
         "author":"Spears, Britney",
         "price": 30201,
         "img": "https://http2.mlstatic.com/D_NQ_NP_648795-MLU74190672969_012024-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"3"
     },
     {
 
@@ -150,7 +166,8 @@
         "author":"Julia Cameron",
         "price": 20102,
         "img": "https://http2.mlstatic.com/D_NQ_NP_815950-MLA32791298180_112019-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"3"
     },
     {
 
@@ -159,7 +176,8 @@
         "author":"Gabriel Rolón",
         "price": 20302,
         "img": "https://http2.mlstatic.com/D_NQ_NP_784657-MLU73231928049_122023-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"3"
     },
     {
 
@@ -168,7 +186,8 @@
         "author":"Oseman, Alice",
         "price": 10202,
         "img": "https://http2.mlstatic.com/D_NQ_NP_755955-MLU73140757941_112023-O.webp",
-        "quanty":1
+        "quanty":1,
+        "idCat":"2"
     }
 
     
