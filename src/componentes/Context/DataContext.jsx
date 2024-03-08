@@ -10,6 +10,7 @@ export const DataContext = createContext();
 const DataProvider = ({ children }) =>{
     const[data, setData] = useState([]);
     const[cart, setCart] = useState([]);
+    const [total, setTotal] = useState(0)
 
     useEffect (() => {
       const misProductos = query (collection (db, "productos"))
@@ -20,7 +21,10 @@ const DataProvider = ({ children }) =>{
         })
     }, [])
 
-    
+    useEffect(() => {
+      const newTotal = cart.reduce((acc, item) => acc + item.price * item.quanty, 0);
+      setTotal(newTotal);
+    }, [cart]);
 
 
 /*     useEffect(()=>{
@@ -37,8 +41,13 @@ const DataProvider = ({ children }) =>{
       
       };
 
+      const emptyCart = () => {
+        setCart([]);
+        setTotal(0);
+      };
+
     return(
-        <DataContext.Provider value={{ data, cart, setCart, buyProducts }} >{children}</DataContext.Provider>
+        <DataContext.Provider value={{ data, cart, setCart, buyProducts, total, emptyCart }} >{children}</DataContext.Provider>
     )
 };
 
